@@ -55,14 +55,18 @@ The R script automatically downloads or locates HRRR meteorological data (from A
 
 ### P1. Run X-STILT
 ```bash
-./bash_run_xstilt_cmd_options.sh 1/2 FALSE/TRUE FALSE/TRUE
+"For X-STILT run"
+./bash_run_xstilt_cmd_options.sh "" "" "" "" 
+```
+"For X-STILT error run"
+./bash_run_xstilt_cmd_options.sh "" TRUE "" "" 
 ```
 
 This runs either:
 - `run_xstilt_Carlton_updates.r`, or  
 - `run_xstilt_Carlton_updates_multicity.r`
 
-These scripts take **seven arguments** (modifiable in the bash script):
+These scripts take **nine arguments** (modifiable in the bash script):
 
 | Argument | Description |
 |-----------|--------------|
@@ -73,10 +77,12 @@ These scripts take **seven arguments** (modifiable in the bash script):
 | 5 | Multi-city flag |
 | 6 | Create overpass files (TRUE/FALSE) |
 | 7 | Error estimation (TRUE/FALSE) |
+| 8 | run failed jobs (TRUE/FALSE) |
+| 9 | city choice (TRUE/FALSE) |
 
 **Notes:**
 - `raob_path` (radiosonde data) and `met_path` are currently hard-coded.
-- Run first with `create_overpass_files = TRUE` to generate overpass and timestr lists.
+- Run first with `create_overpass_files = TRUE` to generate overpass and timestr lists. This take awhile for multiple cities.
 
 ---
 
