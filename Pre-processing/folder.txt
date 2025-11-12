@@ -1,0 +1,13 @@
+..../OCO_Obs/XSTILT_output/Atlanta/
+..../OCO_Obs/XSTILT_output/Austin/
+..../OCO_Obs/XSTILT_output/Baltimore/
+..../OCO_Obs/XSTILT_output/Chicago/
+..../OCO_Obs/XSTILT_output/Detroit/
+..../OCO_Obs/XSTILT_output/Houston/
+..../OCO_Obs/XSTILT_output/LosAngeles/
+..../OCO_Obs/XSTILT_output/NewYork/
+..../OCO_Obs/XSTILT_output/Philadelphia/
+..../OCO_Obs/XSTILT_output/Phoenix/
+..../OCO_Obs/XSTILT_output/Portland/
+..../OCO_Obs/XSTILT_output/SanDiego/
+..../OCO_Obs/XSTILT_output/Seattle/
