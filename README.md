@@ -154,9 +154,16 @@ and all other flags to `F`.
 
 ## 5. Convolutions
 
+first step is the to check how many simualations have succeded of failed. In Pre-processing
+```r
+Rscript check_completed_runs.r
+```
+This is still a bit had-coded, where the user has to change the name of the city. It can be automated but thats not the most pressing issue atm.
+
+Next comes convolutions:
 Scripts are organized under:
 - `call_scripts/` – main SLURM submission scripts
-- `functions/` – subroutines and helper functions
+- `functions/` – subroutines and helper functions This has 3 subfolders, with the main ones being socio_economic_convolution (run first to get effective pop density, gdp, lights, consumption) and enh_cals which does the enhancement and epc calculations. 
 
 Further details are in `Post-processing/README.md`.
 
