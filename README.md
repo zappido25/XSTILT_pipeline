@@ -58,6 +58,7 @@ The R script automatically downloads or locates HRRR meteorological data (from A
 "For X-STILT run"
 ./bash_run_xstilt_cmd_options.sh "" "" "" "" 
 ```
+```bash
 "For X-STILT error run"
 ./bash_run_xstilt_cmd_options.sh "" TRUE "" "" 
 ```
